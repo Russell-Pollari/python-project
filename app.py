@@ -8,3 +8,8 @@ app = Flask(__name__)
 @app.route('/')
 def index():
 	return '<h5>Hello world</h5>'
+
+
+@app.route('/greet/<name>')
+def greet(name):
+	return f'Hello, {ne}'
