@@ -1,11 +1,14 @@
-Python boilerblate
+Python boilerblate project
 
 ## Usage
-
+0. (recommended) Create and activate virtual environment  
+`python -m venv venv`  
+`source venv/bin/activate`
+  
 1. Install requirements  
 `pip install -r requirements.txt`
 
-TODO: instructions for .env variables
+2. Create top level `.env` file and add `FLASK_ENV=development`
 
-2. Run Flask app
+2. Run Flask app  
 `flask run`
